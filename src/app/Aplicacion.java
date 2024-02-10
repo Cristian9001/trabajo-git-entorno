@@ -4,7 +4,7 @@ import leer.Leer;
 
 public class Aplicacion {
 
-	
+	//Aqui saldra el mensaje de bienvenida de la aplicacion
 	public static void Mensaje_Inicial() {
 
 		System.out.println("Bienvenido a la tienda virtual\n\n"
@@ -13,7 +13,7 @@ public class Aplicacion {
 		);
 	}
 
-	
+	//Aqui saldran las opciones donde podremos elegir varias para poder explorar nuestra aplicacion
 	public static void Opciones_Menu() {
 
 		System.out.println("\nSeleccione que desea realizar:\n\n" + "\t1. Mostrar productos. (Listar productos)\n"
@@ -21,13 +21,14 @@ public class Aplicacion {
 				+ "\tSALIR --> Pulse cualquier otro número\n");
 	}
 
+	//Aqui saldra el mensaje final despues de usar nuestra aplicaion y pulsar el boton de la opcion de salir
 	public static void Mensaje_Fin() {
 
 		System.out.println("---- Gracias por usar este software. ----");
 	}
 
 	
-
+	//Aqui se añade las opciones del menu de antes con todo lo que hara
 	public static void main(String[] args) {
 
 		Mensaje_Inicial();

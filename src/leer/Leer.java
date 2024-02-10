@@ -25,11 +25,13 @@ public class Leer {
 
 	}
 
+	//Lee el dato entero de nuestro teclado
 	public static int datoInt() {
 
 		return Integer.parseInt(dato());
 	}
 
+	//Lee el dato de tipo flotante de nuestro teclado
 	public static float datoFloat() {
 		return Float.parseFloat(dato());
 	}
@@ -48,6 +50,7 @@ public class Leer {
 		return c;
 	}
 
+	//Lee un dato de tipo largo de nuestro teclado
 	public static long datoLong() {
 		return Long.parseLong(dato());
 	}

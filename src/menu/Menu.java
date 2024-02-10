@@ -39,8 +39,9 @@ public class Menu {
 			Opciones_Menu();
 
 			switch (Leer.datoInt()) {
-			case 1:
-
+			case 1: System.out.println("Videojuego--> |Nombre:For Honor, Precio Unitario: 15,99€, Cantidad en Stock: 500 unid, Disponibilidad: Disponible|");
+					System.out.println("Cine--> |Nombre: Gladiator, Precio Unitario: 19'99€, Cantidad en Stock: 1000 unid, Disponibilidad: Disponible|");
+					System.out.println("Pelicula--> |Nombre: Cars, Precio Unitario: 11'99€, Cantidad en Stock: 0 unid, Disponibilidad: No Disponible|");
 				break;
 			case 2:
 				
